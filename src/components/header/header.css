@@ -1,0 +1,46 @@
+.header{
+    background-color: black;
+     margin: 2.1% 5%; 
+    padding-bottom: 2%; 
+}
+.header-container{
+color: white;
+display: flex;
+justify-content: space-between;
+margin-right: 3%;
+padding-top: 4%;
+}
+
+.text{
+    width: 47%;
+    font-size:38px;
+    line-height: 60px;
+    font-weight:400;
+}
+.creativity{
+    font-weight: 700;
+}
+.buttons{
+    display: flex;
+}
+
+.btn-grad {
+    width: 268px;
+       margin: 10px;
+       padding: 15px 45px;
+       text-align: center;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       border-radius: 10px; 
+       display: block;
+       border: solid 2px transparent;
+       background-image: linear-gradient(black , black),
+       linear-gradient(45deg,#fff, #6640FF  );
+       background-origin:border-box;
+       background-clip: padding-box , border-box;
+}    
+                           
+
+
+    

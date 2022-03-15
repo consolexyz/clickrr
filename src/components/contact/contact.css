@@ -1,0 +1,19 @@
+.contact-container{
+    background-color: white;
+    padding: 6% 0;
+}
+.contact-heading{
+    margin: 2% 5%;
+}
+.first-btn-section{
+    display: flex;
+}
+.second-btn-section{
+    display: flex;
+}
+.contact-text{
+    font-size: 20px;
+}
+.contact-buttons{
+    margin-left: 13%;
+}

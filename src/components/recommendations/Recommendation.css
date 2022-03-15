@@ -1,0 +1,45 @@
+.recommendation-container{
+    padding: 2%;
+    margin: 0 auto;
+    position: relative;
+}
+.reco-heading{
+    margin: 2% 5%;
+    color: white;
+    font-size: 34px;
+}
+.recommendation{
+    color:white;
+    width: 50%;
+    margin: 3% auto;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.profile-image{
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    margin: auto 2%;
+}
+.profile{
+    display:flex;
+}
+.profile-text{
+    margin: 0;
+    font-size: 30px;
+}
+.reco-text{
+    font-size: 25px;
+    padding: 2% 2%;
+    font-weight: 300;
+}
+.profile-name{
+    font-weight: 500;
+    font-size:25px;
+    
+}
+.profile-occupation{
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: -25px;
+}
