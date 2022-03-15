@@ -16,7 +16,7 @@ const Header = () => {
         </div>
     </div>
         <div className='buttons'>
-             <Button className='btn-grad' type = "submit" activeClass="active"b value="Contact me" to="contact-section" spy={true} smooth={true} offset={50} duration={500} />
+             <Button className='btn-grad' type = "submit" activeClass="active" value="Contact me" to="contact-section" spy={true} smooth={true}  duration={500} />
             Contact Me
             <button className='btn-grad'  onClick={()=> window.open("https://www.behance.net/theclickrr" )}>
              Check out my works

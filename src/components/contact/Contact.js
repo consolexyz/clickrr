@@ -12,7 +12,7 @@ const Contact =()=> {
             </div>
         <div className='contact-buttons'>
         <div className='first-btn-section'>
-        <CustomButton largeBtn>Check out my works </CustomButton>
+        <CustomButton largeBtn onClick={()=> window.open("https://www.behance.net/theclickrr" )}>Check out my works </CustomButton>
         <CustomButton largeBtn onClick={()=> window.open("mailto:www.theclickrr@gmail.com")}>Email me now</CustomButton>
             </div>
         <div className='second-btn-section'>

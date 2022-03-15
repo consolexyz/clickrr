@@ -22,11 +22,13 @@ padding-top: 4%;
 }
 .buttons{
     display: flex;
+    /* justify-items: center; */
+    width: 100%;
 }
 
 .btn-grad {
-    width: 268px;
-       margin: 10px;
+      width: 265px;
+      margin:0 - 18px;
        padding: 15px 45px;
        text-align: center;
        transition: 0.5s;
