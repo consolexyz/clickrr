@@ -12,7 +12,7 @@ padding-top: 4%;
 }
 
 .text{
-    width: 47%;
+    width: 70%;
     font-size:38px;
     line-height: 60px;
     font-weight:400;
@@ -27,9 +27,9 @@ padding-top: 4%;
 }
 
 .btn-grad {
-      width: 265px;
-      margin:0 - 18px;
-       padding: 15px 45px;
+      width: 268px;
+      /* margin:0 - 18px; */
+       padding: 20px 15px;
        text-align: center;
        transition: 0.5s;
        background-size: 200% auto;
@@ -41,6 +41,7 @@ padding-top: 4%;
        linear-gradient(45deg,#fff, #6640FF  );
        background-origin:border-box;
        background-clip: padding-box , border-box;
+       font-size: 24px;
 }    
                            
 

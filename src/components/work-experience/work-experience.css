@@ -12,10 +12,12 @@
 .heading p{
     font-size: 24px;
     font-weight: 400;
+
 }
 .content-box{
     width: 100%;
    font-size: 20px;
+   margin: 4% 0;
 }
 .content{
     width: 50%;
@@ -24,4 +26,5 @@
 }
 .content-description{
     font-weight: 200;
+    color: #676565;
 }
