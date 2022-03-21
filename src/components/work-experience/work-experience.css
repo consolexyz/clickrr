@@ -4,13 +4,13 @@
     margin:auto 0;
 }
 .heading{
-    margin: 2% 5%;
+    margin: 2% 6%;
 }
 .heading h2{
-    font-size: 34px;
+    font-size: 20px;
 }
 .heading p{
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 400;
 
 }
@@ -22,9 +22,19 @@
 .content{
     width: 50%;
     margin-left:13%; 
-    /* margin: 0 auto; */
+}
+.content h3{
+    font-size: 20px;
+}
+.content h4{
+    font-size: 16px;
 }
 .content-description{
-    font-weight: 200;
+    font-weight: 300;
     color: #676565;
+    font-size: 16px;
+}
+hr.line{
+    border-top: 1px solid  #AAAAAA;
+    margin: 0 5%;
 }

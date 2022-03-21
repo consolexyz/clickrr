@@ -4,16 +4,20 @@
 }
 .contact-heading{
     margin: 2% 5%;
-    font-size: 25px;
+    font-size: 20px;
+}
+.contact-heading h2{
+    font-size: 20px;
 }
 .first-btn-section{
     display: flex;
 }
 .second-btn-section{
     display: flex;
+    gap: 2.3%;
 }
 .contact-text{
-    font-size: 20px;
+    font-size: 16px;
 }
 .contact-buttons{
     margin-left: 13%;

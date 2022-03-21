@@ -7,21 +7,20 @@ const Header = () => {
     const Button = Scroll.Button
   return (
     <div className='header'>
-        <div className='header-container'>
-        <div className='text'>
+    <div className='header-container'>
+       <div className='text'>
             <p>Waddup, I am Ekeoma Prince, a creative designer that’s specializes in Brand Identity, Motion and UI Designs. I strongly believe that <span className='creativity'> ‘’Creativity can never be less interesting’’</span></p>
         </div>
-        <div className='mockup'>
-            <Mockup/>
-        </div>
-    </div>
         <div className='buttons'>
              <Button className='btn-grad' type = "submit" activeClass="active" value="Contact me" to="contact-section" spy={true} smooth={true}  duration={500} />
-            Contact Me
-            <button className='btn-grad'  onClick={()=> window.open("https://www.behance.net/theclickrr" )}>
+            <button className='btn-grad '  onClick={()=> window.open("https://www.behance.net/theclickrr" )}>
              Check out my works
             </button>
         </div>
+    </div>
+    <div className='mockup'>
+            <Mockup/>
+        </div> 
     </div>
   )
 }
