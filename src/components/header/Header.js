@@ -8,6 +8,7 @@ const Header = () => {
   return (
     <div className='header'>
     <div className='header-container'>
+      <div className='text-container'>
        <div className='text'>
             <p>Waddup, I am Ekeoma Prince, a creative designer that’s specializes in Brand Identity, Motion and UI Designs. I strongly believe that <span className='creativity'> ‘’Creativity can never be less interesting’’</span></p>
         </div>
@@ -17,10 +18,11 @@ const Header = () => {
              Check out my works
             </button>
         </div>
-    </div>
-    <div className='mockup'>
+        </div>
+        <div className='mockup'>
             <Mockup/>
         </div> 
+    </div>
     </div>
   )
 }
